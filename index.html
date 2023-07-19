@@ -4,8 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project - Sign up Form</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="container">
+    <div class="left-container">
+      <div class="logo">
+        <img src="images/odin-lined.png" alt="the odin project logo">
+        <h2 class="logo-text">ODIN</h2>
+      </div>
+      <div class="credit">
+        <p>Photo by <a href="">Halie West</a> on <a href="https://unsplash.com/photos/25xggax4bSA">Unsplash</a></p>
+      </div>
+    </div>
+
+    <div class="right-container">
+      <form class="form">
+        <div class="form-div">
+          <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            Sign up <em>now</em> to get started.
+          </p>
+          <p>You <em>know</em> you want to.</p>
+        </div>
+        <fieldset class="form-field">
+          <h2>Let's do this</h2>
+          <label for="first-name" class="input-label">FIRST NAME</label>
+          <input type="text" id="first-name" name="first-name">
+          <label for="last-name" class="input-label">LAST NAME</label>
+          <input type="text" id="last-name" name="last-name">
+          <label for="email" class="input-label">EMAIL</label>
+          <input type="email" id="email" name="email">
+          <label for="phone" class="input-label">PHONE NUMBER</label>
+          <input type="text" id="phone" name="phone">
+          <label for="password" class="input-label">PASSWORD</label>
+          <input type="password" id="password" name="password">
+          <label for="password-confirmation" class="input-label">CONFIRM PASSWORD</label>
+          <input type="password" id="password-confirmation">
+        </fieldset>
+        <div class="form-button">
+          <button>Create Account</button>
+          <p>Already have an account? <a href="">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
