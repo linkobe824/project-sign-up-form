@@ -26,7 +26,7 @@
 }
 
 .hero{
-  width: 30%;
+  width: 35%;
   background-image: url("/images/halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -53,8 +53,8 @@
 }
 
 .hero p {
-  font-size: .8rem;
-  color: white;
+  font-size: .9rem;
+  color: rgba(255, 255, 255, 0.795);
   position: absolute;
   bottom: 1rem;
   left: 50%;
@@ -62,8 +62,12 @@
 }
 
 .hero a{
-  text-decoration: none;
-  color: white;
+  color: rgba(255, 255, 255, 0.795);
   font-weight: bold;
+}
+
+.main {
+  background-color:#E5E7EB;
+  width: 70%;
 }
 
