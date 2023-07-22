@@ -88,7 +88,38 @@
 }
 
 .form fieldset {
+  padding-left: 3rem;
   background-color: white;
   border: none;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
+}
+
+.form fieldset h2 {
+  margin-bottom: 1.5rem;
+}
+
+.input-pair-container {
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.input-pair-container .input-container {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+.input-pair-container .input-container .input-label {
+  text-transform: uppercase;
+  font-size: .8rem;
+  font-weight: 600;
+  color: rgb(97, 94, 94);
+}
+
+.input-pair-container .input-container .input-field {
+  height: 2rem;
+  border: 1px solid var(--input-border);
+  border-radius: 3px;
 }
