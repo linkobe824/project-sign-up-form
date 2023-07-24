@@ -75,7 +75,7 @@
 .main .message {
   font-size: 1.5rem;
   font-weight: bold;
-  padding: 0 10rem 0 3rem;
+  padding: 0 10rem 0 3vw;
   margin-bottom: 1.5rem;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .form fieldset {
-  padding: 0 0 1rem 3rem ;
+  padding: 0 0 1rem 3vw ;
   background-color: white;
   border: none;
   box-shadow: 2px 2px 6px rgba(0, 0, 0, .2);
@@ -135,14 +135,35 @@
   border: 2px solid rgb(144, 219, 253);
 }
 
-
 .input-pair-container .error::after{
   content: "*Password do not match";
   color: red;
   font-size: .7rem;
-  display: none;
 }
 
-.input-pair-container .error:invalid{
-  display: flex;
+.submit-btn {
+  background-color: var(--submit-btn);
+  color: white;
+  font-size: .9rem;
+  font-weight: bold;
+  padding: .8rem 2.5rem ;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, .2);
+  margin: 2rem 3vw;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background-color: #6fa043;
+}
+
+.already-para {
+  margin-left: 3vw;
+}
+
+.already-para a {
+  color: var(--submit-btn);
+  text-decoration: none;
+  font-weight: bold;
 }

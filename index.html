@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project - Sign up Form</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
   <body class="container">
     <div class="hero">
@@ -41,15 +42,15 @@
             </div>
             <div class="input-container">
               <label for="phone" class="input-label">Phone Number</label>
-              <input type="tel" id="phone" class="input-field">
+              <input type="tel" id="phone" class="input-field" pattern="">
             </div>
           </div>
           <div class="input-pair-container">
-            <div class="input-container error">
+            <div class="input-container input-password error">
               <label for="password" class="input-label">password</label>
               <input type="password" id="password" class="input-field">
             </div>
-            <div class="input-container">
+            <div class="input-container ">
               <label for="password-conf" class="input-label">confirm password</label>
               <input type="password" id="password-conf" class="input-field">
             </div>
